@@ -1,0 +1,31 @@
+
+<form id="890959155">
+<property name="subject" value=""/>
+<property name="name" value="SolicitarArticulo-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="nombreUsuario" type="InputText" id="1802959016">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;soli_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="soli_nombreUsuario"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="usuario" type="InputText" id="1706890708">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;soli_usuario (usuario)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="soli_usuario"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="1204051322">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;soli_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="soli_idSolicitud"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="soli_idSolicitud" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="soli_nombreUsuario" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="soli_usuario" value="java.lang.String" id="usuario"/>
+</form>

@@ -1,0 +1,94 @@
+
+<form id="611537051">
+<property name="subject" value=""/>
+<property name="name" value="SolicitudPedido.Solicitud-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="idSolicitud" type="InputTextInteger" id="1347528278">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="idSolicitud"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="realizaPedido" type="CheckBox" id="1863273765">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;realizaPedido (realizaPedido)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="realizaPedido"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="despacho" type="CheckBox" id="322911073">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;despacho (despacho)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="despacho"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="aprueba" type="CheckBox" id="1617119850">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprueba (aprueba)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="aprueba"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="usuario" type="InputText" id="351312604">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuario (usuario)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="usuario"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="validaStock" type="CheckBox" id="162343102">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;validaStock (validaStock)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="validaStock"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="stockPedido" type="InputTextInteger" id="1354120994">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stockPedido (stockPedido)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="stockPedido"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="modifica" type="CheckBox" id="2051980451">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;modifica (modifica)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="modifica"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="stock_stock" type="InputTextInteger" id="2068285085">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stock (stock)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="stock/stock"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="stock_flag" type="CheckBox" id="1464893478">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;flag (stock)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="stock/flag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="nombreUsuario" type="InputText" id="1796899959">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="nombreUsuario"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="aprueba" value="java.lang.Boolean" id="aprueba"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="despacho" value="java.lang.Boolean" id="despacho"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="idSolicitud" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="modifica" value="java.lang.Boolean" id="modifica"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="nombreUsuario" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="realizaPedido" value="java.lang.Boolean" id="realizaPedido"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="stock" value="cl.minvu.solicitudes.solicitudes.Stock" id="stock"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="stockPedido" value="java.lang.Integer" id="stockPedido"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="usuario" value="java.lang.String" id="usuario"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="validaStock" value="java.lang.Boolean" id="validaStock"/>
+</form>

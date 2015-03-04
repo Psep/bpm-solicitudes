@@ -1,0 +1,39 @@
+
+<form id="321443207">
+<property name="subject" value=""/>
+<property name="name" value="RevisaModifica-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="modifica" type="CheckBox" id="1096963364">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Modi_modifica (modifica)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Modi_modifica"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="516786514">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Modi_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Modi_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="usuario" type="InputText" id="371038809">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Modi_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Modi_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="nombreUsuario" type="InputText" id="1453740297">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Modi_NombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Modi_NombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="Modi_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="Modi_modifica" value="java.lang.Boolean" id="modifica"/>
+<dataHolder inputId="Modi_NombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="Modi_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

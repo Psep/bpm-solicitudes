@@ -1,0 +1,31 @@
+
+<form id="799437084">
+<property name="subject" value=""/>
+<property name="name" value="RevisaOrden-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="nombreUsuario" type="InputText" id="4827923">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orden_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="orden_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="1479792016">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orden_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="orden_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="usuario" type="InputText" id="2114729086">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;orden_usuario (usuario)quot;"/>
+<property name="inputBinding" value="orden_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="orden_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="orden_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="orden_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

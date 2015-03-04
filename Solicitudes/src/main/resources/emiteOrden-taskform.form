@@ -1,0 +1,31 @@
+
+<form id="1773321722">
+<property name="subject" value=""/>
+<property name="name" value="emiteOrden-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="668681935">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Emite_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Emite_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="usuario" type="InputText" id="1852465356">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Emite_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Emite_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="nombreUsuario" type="InputText" id="1806089080">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Emite_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Emite_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="Emite_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="Emite_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="Emite_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

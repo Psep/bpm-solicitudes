@@ -1,0 +1,39 @@
+
+<form id="463323554">
+<property name="subject" value=""/>
+<property name="name" value="PrepararPedido-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="nombreUsuario" type="InputText" id="844788476">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Prep_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Prep_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="stockPedido" type="InputTextInteger" id="1832756287">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Prep_stockPedido (stockPedido)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Prep_stockPedido"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="1646553754">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Prep_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Prep_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="usuario" type="InputText" id="926996765">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Prep_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Prep_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="Prep_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="Prep_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="Prep_stockPedido" value="java.lang.Integer" id="stockPedido"/>
+<dataHolder inputId="Prep_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

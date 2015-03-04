@@ -1,0 +1,39 @@
+
+<form id="1632157904">
+<property name="subject" value=""/>
+<property name="name" value="VerficaStock-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="usuario" type="InputText" id="465218">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Veri_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Veri_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="aprueba" type="CheckBox" id="1317536891">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Veri_aprueba (aprueba)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Veri_aprueba"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="nombreUsuario" type="InputText" id="1513556572">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Veri_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Veri_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="idSolicitud" type="InputTextInteger" id="1960182052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Veri_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Veri_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="Veri_aprueba" value="java.lang.Boolean" id="aprueba"/>
+<dataHolder inputId="Veri_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="Veri_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="Veri_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

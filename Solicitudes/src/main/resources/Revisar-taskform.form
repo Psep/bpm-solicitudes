@@ -1,0 +1,39 @@
+
+<form id="1157799814">
+<property name="subject" value=""/>
+<property name="name" value="Revisar-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="nombreUsuario" type="InputText" id="838000332">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Rev_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Rev_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="usuario" type="InputText" id="119715136">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Rev_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Rev_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="realizaPedido" type="CheckBox" id="404494429">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rev_revisa (realizaPedido)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="rev_revisa"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="idSolicitud" type="InputTextInteger" id="1697081580">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Rev_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Rev_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="Rev_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="Rev_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="rev_revisa" value="java.lang.Boolean" id="realizaPedido"/>
+<dataHolder inputId="Rev_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>

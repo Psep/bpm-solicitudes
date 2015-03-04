@@ -1,0 +1,28 @@
+import cl.minvu.solicitudes.solicitudes.Stock;
+import java.lang.Boolean;
+import java.lang.Integer;
+import java.lang.Number;
+	
+//from row number: 1
+//aaaa
+rule "Row 1 ValidaStockDRL"
+ruleflow-group "valida"
+dialect "mvel"
+when
+       f1 : Stock( stock < 1 )
+then
+       f1.setFlag( false );
+	System.out.println("valor flag " + f1.getFlag());
+end
+	
+//from row number: 2
+//bbb
+rule "Row 2 ValidaStockDRL"
+ruleflow-group "valida"
+dialect "mvel"
+when
+        f1 : Stock( stock > 0 )
+then
+        f1.setFlag( true );
+	System.out.println("valor flag DRL" + f1.getFlag());
+end

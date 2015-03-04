@@ -1,0 +1,39 @@
+
+<form id="515947401">
+<property name="subject" value=""/>
+<property name="name" value="RevisarDespacho-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="idSolicitud" type="InputTextInteger" id="2089458539">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Despa_idSolicitud (idSolicitud)quot;"/>
+<property name="inputBinding" value="Despa_idSolicitud"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="usuario" type="InputText" id="313768254">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Despa_usuario (usuario)quot;"/>
+<property name="inputBinding" value="Despa_usuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="despacho" type="CheckBox" id="1286649622">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;despa_Despacho (despacho)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="despa_Despacho"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="nombreUsuario" type="InputText" id="828906549">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Despa_nombreUsuario (nombreUsuario)quot;"/>
+<property name="inputBinding" value="Despa_nombreUsuario"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="despa_Despacho" value="java.lang.Boolean" id="despacho"/>
+<dataHolder inputId="Despa_idSolicitud" name="#FF8881" type="basicType" outId="" value="java.lang.Integer" id="idSolicitud"/>
+<dataHolder inputId="Despa_nombreUsuario" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="nombreUsuario"/>
+<dataHolder inputId="Despa_usuario" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="usuario"/>
+</form>
